@@ -6,7 +6,32 @@
     <body>
         <a href="index.html">Click here to go home</a>
 
+        <br>
 
+        <form>
+          <fieldset>
+            <legend>Form</legend>
+            <label for="entry_name">Username:</label>
+            <input type="text" id="entry_name" name="entry_name" maxlength="10">
+            <br>
+
+            <label for="secret">Password:</label>
+            <input type="password" name="secret" id="secret" size="10" maxlength="10" required>
+            <br>
+
+            <label for="comments">Your Message:</label>
+            <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Add comments here"></textarea>
+            <br>
+
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="yesno" value="True">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="yesno" value="False">
+            <br>
+
+            <input type="submit" value="Finished">
+          </fieldset>
+        </form>
         
     </body>
 </hmtl>
